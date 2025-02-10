@@ -1,7 +1,7 @@
 {
   "story_generation": {
-    "char_limit_min": 700,
-    "char_limit_max": 800
+    "char_limit_min": 600,
+    "char_limit_max": 700
   },
   "storyboard": {
     "max_scenes": 14

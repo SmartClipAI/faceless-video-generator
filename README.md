@@ -23,16 +23,22 @@ Faceless Video Generator is a comprehensive multimedia content creation tool tha
    cd faceless-video-generator
    ```
 
-2. Install Pipenv if not already installed:
+2. Create and activate a virtual environment:
 
    ```bash
-   pip install pipenv
+   # On Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   # On macOS/Linux
+   python -m venv venv
+   source venv/bin/activate
    ```
 
 3. Install project dependencies:
 
    ```bash
-   pipenv install
+   pip install -r requirements.txt
    ```
 
 4. Configure environment variables:
@@ -55,10 +61,14 @@ Faceless Video Generator is a comprehensive multimedia content creation tool tha
 
 ## Usage
 
-1. Activate the Pipenv shell:
+1. Activate the virtual environment (if not already activated):
 
    ```bash
-   pipenv shell
+   # On Windows
+   .\venv\Scripts\activate
+
+   # On macOS/Linux
+   source venv/bin/activate
    ```
 
 2. Run the main script:
@@ -124,4 +134,29 @@ The project supports two image generation APIs:
 - `speech_rate`: Speed multiplier for generated speech (1.1)
 
 You can modify these settings in the `config.json` file to customize the behavior of the application according to your needs.
+
+## Supported Fonts
+
+![Available Font Styles](assets/font.png)
+
+The application supports the following font styles for text rendering:
+
+- Titan One
+- Ranchers
+- Rampart One
+- Permanent Marker
+- Open Sans
+- Noto Sans
+- Montserrat
+- Luckiest Guy
+- Knewave
+- Jua
+- Creepster
+- Caveat
+- Bungee
+- Bebas Neue
+- Bangers
+- Bakbak One
+
+These fonts can be used for customizing the text appearance in generated videos and images.
 
