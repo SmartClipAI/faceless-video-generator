@@ -1,0 +1,16 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore data directory and its subdirectories
+data/
+
+.vscode

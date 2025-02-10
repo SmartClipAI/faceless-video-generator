@@ -1,0 +1,32 @@
+{
+  "story_generation": {
+    "char_limit_min": 700,
+    "char_limit_max": 800
+  },
+  "storyboard": {
+    "max_scenes": 14
+  },
+  "openai": {
+    "model": "gpt-4o",
+    "temperature": 0.9
+  },
+  "replicate_flux_api": {
+    "model": "black-forest-labs/flux-schnell",
+    "aspect_ratio": "9:16",
+    "num_inference_steps": 4,
+    "disable_safety_checker": false,
+    "guidance": 3.0,
+    "output_quality": 100
+  },
+  "fal_flux_api": {
+    "model": "fal-ai/flux/schnell",
+    "image_size": "portrait_16_9",
+    "num_inference_steps": 4,
+    "guidance_scale": 3.5,
+    "enable_safety_checker": false,
+    "num_images": 1
+  },
+  "tts": {
+    "speech_rate": 1.1
+  }
+}
