@@ -13,8 +13,6 @@ def extract_and_parse_json2(response: str) -> dict:
         return storyboard_data
     except json.JSONDecodeError as e:
         print(f"JSON Decode Error: {e}")
-        print("---- response ----\n", response)
-        print("---- cleaned_response ----\n", cleaned_response)
 
 
 def extract_and_parse_json(response: str) -> dict:

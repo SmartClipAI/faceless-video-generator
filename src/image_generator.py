@@ -45,11 +45,6 @@ def generate_image(
     # Remove all bracketed content
     enhanced_prompt = re.sub(r'\{\{.*?\}\}', '', enhanced_prompt)
     
-    for character in character_descriptions:
-        print('---- character ----\n', character)
-    
-    print('---- prompt ----\n', enhanced_prompt)
-
     return image_generator_func(enhanced_prompt)
 
 
