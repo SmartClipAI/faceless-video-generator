@@ -1,4 +1,6 @@
-# Create Viral Faceless Videos Instantly
+# Faceless Video Generator 
+
+## Create Viral Faceless Videos Instantly
 
 ✨ **FacelessVideos.app** offers one-stop automated video creation:
 - Generate complete faceless videos from just text input
@@ -6,8 +8,6 @@
 - New users get 1000 free credits to start creating
 
 [Try it now at FacelessVideos.app →](https://facelessvideos.app/)
-
-# Faceless Video Generator 
 
 ## Project Overview
 
