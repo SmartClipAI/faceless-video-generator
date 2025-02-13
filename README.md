@@ -1,3 +1,12 @@
+# Create Viral Faceless Videos Instantly
+
+✨ **FacelessVideos.app** offers one-stop automated video creation:
+- Generate complete faceless videos from just text input
+- Choose between Flux Schnell and Flux Dev AI image models
+- New users get 1000 free credits to start creating
+
+[Try it now at FacelessVideos.app →](https://facelessvideos.app/)
+
 # Faceless Video Generator 
 
 ## Project Overview
